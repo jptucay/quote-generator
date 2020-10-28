@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirational Quotes</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-container slide-in-top" id="quote-container">
+        <div class="quote-box">
+            <i class="fas fa-quote-left tracking-in-contract-bck-top"></i>
+            <div class="quote-text">
+                <span id="quote"></span>
+            </div>
+        </div>
+        <div class="quote-author tracking-in-expand-fwd">
+            <span>&mdash; <span id="author"></span></span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <a href="#" class="btn btn-white btn-animate" id="new-quote">New Quote</a>
+        </div>
+    </div>
+    <span id="jpt" class="jpt tracking-in-expand-fwd">Made with ❤ in the Philippines</span>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <span id="refresh" class="refresh tracking-in-expand-fwd">Refresh your Browser</span>
+    <!-- My Script -->
+    <script src="script.js"></script>
+    <!-- Made with ❤ by John Patrick Tucay -->
+</body>
+
+</html>
